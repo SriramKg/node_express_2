@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "name": "Clark Kent",
+      "email": "clark@superman.com",
+      "password": "$2b$10$9rkzKbfGdcCkv7jdKwmWleK.qYYGfouy1LovWP/Y/BvCSWo50OlTG",
+      "preferences": ["movies", "comics"]
+    }
+  ]
+}
