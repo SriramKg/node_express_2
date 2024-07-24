@@ -11,8 +11,10 @@ app.use(cors());
 dotenv.config();
 
 const userRoutes = require('./routes/user.routes');
+const newsRoutes = require('./routes/news.routes');
 
-app.use("/api/v1/users", userRoutes);
+app.use("/users", userRoutes);
+app.use("/news", newsRoutes);
 
 app.listen(PORT, () => {
     console.log(`Server started on port ${PORT}`);
@@ -21,3 +23,6 @@ app.listen(PORT, () => {
 app.get('/', (req, res) => {
     res.send('Hello World');
 })
+
+
+module.exports = app;

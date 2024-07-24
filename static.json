@@ -1,10 +1,10 @@
 {
   "users": [
     {
-      "name": "Clark Kent",
-      "email": "clark@superman.com",
-      "password": "$2b$10$9rkzKbfGdcCkv7jdKwmWleK.qYYGfouy1LovWP/Y/BvCSWo50OlTG",
-      "preferences": ["movies", "comics"]
+      "name": "Sriram K G",
+      "email": "kgsriram99@gmail.com",
+      "password": "$2b$10$9vzKIUl1/yaFsNvmvGqrIu6quVeaI3gGzDKs1gqA6CI7/aBLET3jy",
+      "preferences": ["Books", "Cricket", "Games"]
     }
   ]
 }

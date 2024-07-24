@@ -1,4 +1,4 @@
-const {getPreferences} = require('../services/preference.service');
+const {getPreferences, updatePreferences} = require('../services/preference.service');
 
 async function getUserPreferences(req, res) {
   try {
@@ -13,6 +13,18 @@ async function getUserPreferences(req, res) {
   }
 }
 
+async function updateUserPreferences(req, res) {
+  try {
+    const {message, status} = await updatePreferences(req.body, req.email);
+    res.status(status).json({
+      message,
+    });
+  } catch (error) {
+    console.log(error);
+    
+  }
+}
+
 module.exports = {
-  getUserPreferences,
+  getUserPreferences, updateUserPreferences
 };
