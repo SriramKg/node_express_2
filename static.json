@@ -1,10 +1,22 @@
 {
   "users": [
     {
+      "name": "Virat Kohli",
+      "email": "virat@kohli.com",
+      "password": "$2b$10$MtC0q7.HJZAu4ZDUlTbsYu.v3c5vxvO.i6/A0jl7.zK.k.VOPgmdq",
+      "preferences": ["Cricket", "India"]
+    },
+    {
       "name": "Sriram K G",
       "email": "kgsriram99@gmail.com",
-      "password": "$2b$10$9vzKIUl1/yaFsNvmvGqrIu6quVeaI3gGzDKs1gqA6CI7/aBLET3jy",
-      "preferences": ["Books", "Cricket", "Games"]
+      "password": "$2b$10$h3rUh/jyPBSqRh1k5pQai.aL4nKfvfrjByKkSdLmuamu5V/BVM9DW",
+      "preferences": ["Books", "Cricket"]
+    },
+    {
+      "name": "Rohit Sharma",
+      "email": "rohit@sharma.com",
+      "password": "$2b$10$qeSOt62zanHvFkrun3fi9OAtyrsbCFtrnLekauBsV6vhD8coch4ky",
+      "preferences": ["Fun", "Cricket"]
     }
   ]
 }

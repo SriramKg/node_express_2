@@ -3,27 +3,27 @@ Server started on port 8080
 # Subtest: POST /users/signup
     ok 1 - should be equal
     1..1
-ok 1 - POST /users/signup # time=212.385ms
+ok 1 - POST /users/signup # time=228.238ms
 
 # Subtest: POST /users/signup with missing email
     ok 1 - should be equal
     1..1
-ok 2 - POST /users/signup with missing email # time=12.906ms
+ok 2 - POST /users/signup with missing email # time=9.597ms
 
-$2b$10$j9EyMHaKoGiNfGj7X2UrOuwUEKE4fjeupRf0L6FgHBdmHg3nU.h0. before encrypt password
+$2b$10$ELuAiAQo3XszUi6QVWjKMeuU99vDxajN.QW9GUqHU7ICl3A7zNVGO before encrypt password
 # Subtest: POST /users/login
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     1..2
-ok 3 - POST /users/login # time=165.519ms
+ok 3 - POST /users/login # time=160.115ms
 
-$2b$10$j9EyMHaKoGiNfGj7X2UrOuwUEKE4fjeupRf0L6FgHBdmHg3nU.h0. before encrypt password
+$2b$10$ELuAiAQo3XszUi6QVWjKMeuU99vDxajN.QW9GUqHU7ICl3A7zNVGO before encrypt password
 # Subtest: POST /users/login with wrong password
     ok 1 - should be equal
     1..1
-ok 4 - POST /users/login with wrong password # time=158.53ms
+ok 4 - POST /users/login with wrong password # time=169.041ms
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjE4MzkxMjMsImV4cCI6MTcyMTg0NjMyM30.6wzivIwyWVFoopXZrF3uVIBYvvnUsnV6PlLok7w6WUM Auth Token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjIwMDE1MzMsImV4cCI6MTcyMjAwODczM30.yLfE1w3N6lf1gPC3VYDXE0fzEEHnZtSlgSNmNNWKmXA Auth Token
 clark@superman.com request Email
 clark@superman.com
 clark@superman.com
@@ -32,23 +32,23 @@ clark@superman.com
     ok 2 - specified property should be defined own property
     ok 3 - should be equivalent
     1..3
-ok 5 - GET /users/preferences # time=15.95ms
+ok 5 - GET /users/preferences # time=17.027ms
 
 # Subtest: GET /users/preferences without token
     ok 1 - should be equal
     1..1
-ok 6 - GET /users/preferences without token # time=6.251ms
+ok 6 - GET /users/preferences without token # time=6.692ms
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjE4MzkxMjMsImV4cCI6MTcyMTg0NjMyM30.6wzivIwyWVFoopXZrF3uVIBYvvnUsnV6PlLok7w6WUM Auth Token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjIwMDE1MzMsImV4cCI6MTcyMjAwODczM30.yLfE1w3N6lf1gPC3VYDXE0fzEEHnZtSlgSNmNNWKmXA Auth Token
 clark@superman.com request Email
 clark@superman.com This is the Email
 [ [32m'movies'[39m, [32m'comics'[39m, [32m'games'[39m ] This is the preferences
 # Subtest: PUT /users/preferences
     ok 1 - should be equal
     1..1
-ok 7 - PUT /users/preferences # time=17.3ms
+ok 7 - PUT /users/preferences # time=17.897ms
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjE4MzkxMjMsImV4cCI6MTcyMTg0NjMyM30.6wzivIwyWVFoopXZrF3uVIBYvvnUsnV6PlLok7w6WUM Auth Token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjIwMDE1MzMsImV4cCI6MTcyMjAwODczM30.yLfE1w3N6lf1gPC3VYDXE0fzEEHnZtSlgSNmNNWKmXA Auth Token
 clark@superman.com request Email
 clark@superman.com
 clark@superman.com
@@ -56,9 +56,9 @@ clark@superman.com
     ok 1 - should be equal
     ok 2 - should be equivalent
     1..2
-ok 8 - Check PUT /users/preferences # time=14.071ms
+ok 8 - Check PUT /users/preferences # time=11.195ms
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjE4MzkxMjMsImV4cCI6MTcyMTg0NjMyM30.6wzivIwyWVFoopXZrF3uVIBYvvnUsnV6PlLok7w6WUM Auth Token
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiY2xhcmtAc3VwZXJtYW4uY29tIiwibmFtZSI6IkNsYXJrIEtlbnQiLCJpYXQiOjE3MjIwMDE1MzMsImV4cCI6MTcyMjAwODczM30.yLfE1w3N6lf1gPC3VYDXE0fzEEHnZtSlgSNmNNWKmXA Auth Token
 clark@superman.com request Email
 movies+comics+games QUERY:
 https://newsapi.org/v2/everything?q=movies+comics+games&apiKey=33c81ab2401b426ab74a00bd6a1f9ebf URL:
@@ -66,11 +66,11 @@ https://newsapi.org/v2/everything?q=movies+comics+games&apiKey=33c81ab2401b426ab
     ok 1 - should be equal
     ok 2 - specified property should be defined own property
     1..2
-ok 9 - GET /news # time=2625.628ms
+ok 9 - GET /news # time=678.706ms
 
 # Subtest: GET /news without token
     ok 1 - should be equal
     1..1
-ok 10 - GET /news without token # time=5.444ms
+ok 10 - GET /news without token # time=6.192ms
 
 1..10

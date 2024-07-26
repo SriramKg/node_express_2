@@ -5,26 +5,36 @@ const jwt = require("jsonwebtoken");
 async function registerNewUser(body) {
   try {
     const { name, email, password, preferences } = body;
-
     if (!email) {
       return {
         status: 400,
         message: "Please provide email to sign up",
       };
     } else {
-      const hash = await bcrypt.hash(password, 10);
+      const data = await fs.readFile("static.json", "utf-8");
+      const response = JSON.parse(data);
+      if (response.users.find((user) => user.email === email)) {
+        return {
+          status: 400,
+          message: "User already exists",
+        };
+      } else {
+        const hash = await bcrypt.hash(password, 10);
 
-      const newUser = {
-        name,
-        email,
-        password: hash,
-        preferences,
-      };
-      return {
-        status: 200,
-        message: "User registered successfully",
-        user: newUser,
-      };
+        const newUser = {
+          name,
+          email,
+          password: hash,
+          preferences,
+        };
+        response.users.push(newUser);
+        await fs.writeFile("static.json", JSON.stringify(response));
+        return {
+          status: 200,
+          message: "User registered successfully",
+          user: newUser,
+        };
+      }
     }
   } catch (error) {
     throw new Error("USER NOT CREATED !!!" + error);
