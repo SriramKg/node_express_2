@@ -1,5 +1,5 @@
 {
-  "date": "2024-07-26T13:45:31.194Z",
+  "date": "2024-07-27T15:16:06.705Z",
   "argv": [
     "/home/sriram/.nvm/versions/node/v20.12.2/bin/node",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/test/server.test.js"
@@ -12,10 +12,10 @@
   ],
   "NODE_OPTIONS": "\"--import=file:///home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
   "cwd": "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2",
-  "pid": 15675,
-  "ppid": 15649,
+  "pid": 19460,
+  "ppid": 19437,
   "parent": null,
-  "uuid": "404e705b-a916-4318-9243-00885f8094e5",
+  "uuid": "932e52d9-91ab-42ef-a8e4-b06edeef3d08",
   "files": [
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/test/server.test.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
@@ -29,6 +29,8 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-all-conditions.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
@@ -36,9 +38,8 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-import.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/parse.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/errors.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
@@ -51,27 +52,26 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/to-file-url.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-package-import.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/parse.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/read-json.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/find-star-match.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/index.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/find-star-match.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/walk-up-path/dist/esm/index.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/ast.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/escape.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/unescape.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/dist/esm/index.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/node_modules/minipass/dist/esm/index.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minipass/dist/esm/index.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/loader.mjs",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
@@ -84,7 +84,8 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/services/user.service.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/routes/news.routes.js",
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/controllers/news.controller.js",
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/services/news.service.js"
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/services/news.service.js",
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/utils/cache.js"
   ],
   "sources": {
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/import.mjs": [
@@ -114,6 +115,12 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/dist/esm/service-key.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/mock/src/service-key.ts"
     ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/get-all-conditional-values.ts"
     ],
@@ -135,14 +142,11 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-import.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/resolve-import.ts"
     ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/call-site-like.ts"
-    ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/require-resolve.ts"
-    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/is-windows.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/parse.ts"
     ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/get-conditional-values-list.ts"
@@ -180,17 +184,14 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/resolve-package-import.ts"
     ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/dist/esm/parse.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/@tapjs/stack/src/parse.ts"
-    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/read-json.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/read-json.ts"
     ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/find-star-match.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/find-star-match.ts"
-    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/index.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/index.ts"
+    ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/src/find-star-match.ts"
     ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/walk-up-path/dist/esm/index.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/walk-up-path/src/index.ts"
@@ -207,9 +208,6 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/ignore.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/ignore.ts"
     ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/pattern.ts"
-    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/src/assert-valid-pattern.ts"
     ],
@@ -225,11 +223,11 @@
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/dist/esm/index.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/src/index.ts"
     ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/pattern.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/pattern.ts"
+    ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/walker.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/walker.ts"
-    ],
-    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js": [
-      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/src/brace-expressions.ts"
     ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/node_modules/lru-cache/dist/esm/index.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/path-scurry/node_modules/lru-cache/src/index.ts"
@@ -242,11 +240,14 @@
     ],
     "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/dist/esm/processor.js": [
       "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/glob/src/processor.ts"
+    ],
+    "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/home/sriram/Documents/Assignment_Folder/assignment_6(news_agg)/node_express_2/node_modules/resolve-import/node_modules/minimatch/src/brace-expressions.ts"
     ]
   },
-  "root": "404e705b-a916-4318-9243-00885f8094e5",
+  "root": "932e52d9-91ab-42ef-a8e4-b06edeef3d08",
   "externalID": "test/server.test.js",
   "code": 0,
   "signal": null,
-  "runtime": 2947.3214120000002
+  "runtime": 3348.997806
 }

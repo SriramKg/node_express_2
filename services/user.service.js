@@ -11,7 +11,7 @@ async function registerNewUser(body) {
         message: "Please provide email to sign up",
       };
     } else {
-      const data = await fs.readFile("static.json", "utf-8");
+      const data = await fs.readFile("./resources/static.json", "utf-8");
       const response = JSON.parse(data);
       if (response.users.find((user) => user.email === email)) {
         return {
@@ -28,7 +28,7 @@ async function registerNewUser(body) {
           preferences,
         };
         response.users.push(newUser);
-        await fs.writeFile("static.json", JSON.stringify(response));
+        await fs.writeFile("./resources/static.json", JSON.stringify(response));
         return {
           status: 200,
           message: "User registered successfully",
@@ -45,7 +45,7 @@ async function loginMyUser(body) {
   try {
     const { email, password } = body;
     const secret = process.env.SECRET_JWT;
-    const data = await fs.readFile("static.json", "utf-8");
+    const data = await fs.readFile("./resources/static.json", "utf-8");
     const response = JSON.parse(data);
     const user = response.users.find((user) => user.email === email);
     if (!user) {

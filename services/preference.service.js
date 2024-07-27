@@ -3,7 +3,7 @@ const fs = require('fs').promises;
 async function getPreferences(email) {
     try {
         console.log(email);
-        const data = await fs.readFile('static.json', 'utf-8');
+        const data = await fs.readFile('./resources/static.json', 'utf-8');
         const response = JSON.parse(data);
         const user = response.users.find(user => user.email === email);
         if (!user) {
@@ -26,7 +26,7 @@ async function updatePreferences(body, email) {
     const {preferences} = body;
     console.log(email, "This is the Email");
     console.log(preferences, "This is the preferences");
-    const data = await fs.readFile('static.json', 'utf-8');
+    const data = await fs.readFile('./resources/static.json', 'utf-8');
     const response = JSON.parse(data);
     const user = response.users.find(user => user.email === email);
     if (!user) {
@@ -37,7 +37,7 @@ async function updatePreferences(body, email) {
     }
     else {
         user.preferences = preferences;
-        fs.writeFile('static.json', JSON.stringify(response), (err) => {
+        fs.writeFile('./resources/static.json', JSON.stringify(response), (err) => {
             if (err) {
                 return {
                     status: 500,

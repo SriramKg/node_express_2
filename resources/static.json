@@ -4,7 +4,7 @@
       "name": "Virat Kohli",
       "email": "virat@kohli.com",
       "password": "$2b$10$MtC0q7.HJZAu4ZDUlTbsYu.v3c5vxvO.i6/A0jl7.zK.k.VOPgmdq",
-      "preferences": ["Cricket", "India"]
+      "preferences": ["Cricket", "India", "Dhoni"]
     },
     {
       "name": "Sriram K G",
@@ -16,7 +16,7 @@
       "name": "Rohit Sharma",
       "email": "rohit@sharma.com",
       "password": "$2b$10$qeSOt62zanHvFkrun3fi9OAtyrsbCFtrnLekauBsV6vhD8coch4ky",
-      "preferences": ["Fun", "Cricket"]
+      "preferences": ["Food", "Entertainment"]
     }
   ]
 }
