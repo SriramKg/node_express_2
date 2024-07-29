@@ -1,0 +1,14 @@
+{
+  "articles": [
+    {
+      "source": { "id": null, "name": "BBC News" },
+      "author": null,
+      "title": "Alert issued in India after boy dies from high risk Nipah virus",
+      "description": "The virus is transmitted from animals such as pigs and fruit bats to humans.",
+      "url": "https://www.bbc.com/news/articles/cj50d7e9vp6o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/750c/live/e8adc3f0-4781-11ef-b74b-5f98efd74680.jpg",
+      "publishedAt": "2024-07-21T20:42:09Z",
+      "content": "Health authorities in India's Kerala state have issued an alert after a 14-year-old boy died of the Nipah virus. \r\nAccording to the state's health minister, an additional 60 people have been identifi… [+1701 chars]"
+    }
+  ]
+}

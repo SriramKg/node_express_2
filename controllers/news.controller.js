@@ -1,4 +1,4 @@
-const { getNewsExternal } = require("../services/news.service");
+const { getNewsExternal, readNewsExternal, favoriteNewsExternal } = require("../services/news.service");
 
 async function getUserNews(req, res) {
   try {
@@ -15,6 +15,36 @@ async function getUserNews(req, res) {
   }
 }
 
+async function readNews(req, res) {
+  try {
+    const { message, status, readArticle } = await readNewsExternal(req.email, req.params.id);
+    res.status(status).json({
+      message,
+      readArticle,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Internal Server Error",
+    });
+    console.log(error);
+  }
+}
+
+async function favoriteNews(req, res) {
+  try {
+    const { message, status, favoriteArticle } = await favoriteNewsExternal(req.email, req.params.id);
+    res.status(status).json({
+      message,
+      favoriteArticle,
+    });
+  } catch (error) {
+    res.status(500).json({
+      message: "Internal Server Error",
+    });
+    console.log(error);
+  }
+}
+
 module.exports = {
-  getUserNews,
+  getUserNews, readNews, favoriteNews
 };

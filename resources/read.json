@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "source": { "id": null, "name": "Forbes" },
+      "author": "Monica Sanders, Contributor, \n Monica Sanders, Contributor\n https://www.forbes.com/sites/monicasanders/",
+      "title": "Climate Change's Toll On Global Agriculture: A Looming Crisis",
+      "description": "Climate change is impacting food supplies globally. Cocoa, olive oil, soybeans and rice supplies are dropping while prices rise — impacting critical food supply chains.",
+      "url": "https://www.forbes.com/sites/monicasanders/2024/07/19/climate-changes-toll-on-global-agriculture-a-looming-crisis/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6699a13607273c6335981d7c/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2024-07-19T13:30:00Z",
+      "content": "FASANO, ITALY - APRIL 10, 2019: File photo of a worker pruning an olive tree at the Piana degli ... [+] Oliveti in Fasano, Italy. (Photo by Marco Di Lauro/Getty Images)\r\nGetty Images\r\nClimate change … [+6049 chars]"
+    },
+    {
+      "source": { "id": null, "name": "BBC News" },
+      "author": null,
+      "title": "Alert issued in India after boy dies from high risk Nipah virus",
+      "description": "The virus is transmitted from animals such as pigs and fruit bats to humans.",
+      "url": "https://www.bbc.com/news/articles/cj50d7e9vp6o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/750c/live/e8adc3f0-4781-11ef-b74b-5f98efd74680.jpg",
+      "publishedAt": "2024-07-21T20:42:09Z",
+      "content": "Health authorities in India's Kerala state have issued an alert after a 14-year-old boy died of the Nipah virus. \r\nAccording to the state's health minister, an additional 60 people have been identifi… [+1701 chars]"
+    },
+    {
+      "source": { "id": "wired", "name": "Wired" },
+      "author": "Nadeem Sarwar, Shreya Fotedar",
+      "title": "This Ancient Technology Is Helping Millions Stay Cool",
+      "description": "Cheap, low-energy evaporative cooling devices are keeping water, food, people, and even whole buildings cool across India.",
+      "url": "https://www.wired.com/story/evaporative-cooling-devices-coolant-clay-matka-mitticool-india-heat-wave/",
+      "urlToImage": "https://media.wired.com/photos/6672c421e0704c563b4e7b77/191:100/w_1280,c_limit/GettyImages-80973767.jpg",
+      "publishedAt": "2024-07-09T15:42:42Z",
+      "content": "CBalance is another company working to tackle the heat problem, specifically for underprivileged households living in tightly packed slums, ghettos, and poorly planned neighborhoods. Led by Vivek Gil… [+3227 chars]"
+    },
+    {
+      "source": { "id": "wired", "name": "Wired" },
+      "author": "Nadeem Sarwar, Shreya Fotedar",
+      "title": "This Ancient Technology Is Helping Millions Stay Cool",
+      "description": "Cheap, low-energy evaporative cooling devices are keeping water, food, people, and even whole buildings cool across India.",
+      "url": "https://www.wired.com/story/evaporative-cooling-devices-coolant-clay-matka-mitticool-india-heat-wave/",
+      "urlToImage": "https://media.wired.com/photos/6672c421e0704c563b4e7b77/191:100/w_1280,c_limit/GettyImages-80973767.jpg",
+      "publishedAt": "2024-07-09T15:42:42Z",
+      "content": "CBalance is another company working to tackle the heat problem, specifically for underprivileged households living in tightly packed slums, ghettos, and poorly planned neighborhoods. Led by Vivek Gil… [+3227 chars]"
+    }
+  ]
+}
